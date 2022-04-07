@@ -28,11 +28,11 @@ class AdminAddTeamsComponent extends Component
         $teams = new Team();
 
         $imageName = Carbon::now()->timestamp.'.'.$this->pic->extension();
-        $this->pic->storeAs('assets/frontend/pic/Testimony/main',$imageName);
+        $this->pic->storeAs('pic/team',$imageName);
         $teams->pic = $imageName;
 
         $testiName = Carbon::now()->timestamp.'.'.$this->pic2->extension();
-        $this->pic2->storeAs('assets/frontend/pic/teams/main',$testiName);
+        $this->pic2->storeAs('pic/team',$testiName);
         $teams->pic2 = $testiName;
 
         $teams->top_title = $this->top_title;

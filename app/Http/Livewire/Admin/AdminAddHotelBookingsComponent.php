@@ -31,13 +31,13 @@ class AdminAddHotelBookingsComponent extends Component
     {
         $bookings = new HotelBooking();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/bookings/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $bookings->bgCover = $imageName;
         $imgName = Carbon::now()->timestamp.'.'.$this->hotel_pic->extension();
-        $this->hotel_pic->storeAs('assets/frontend/pic',$imgName);
+        $this->hotel_pic->storeAs('pic/recomended',$imgName);
         $bookings->hotel_pic = $imgName;
         $portName = Carbon::now()->timestamp.'.'.$this->hotel_pic2->extension();
-        $this->hotel_pic2->storeAs('assets/frontend/pic',$portName);
+        $this->hotel_pic2->storeAs('pic/recomended',$portName);
         $bookings->port_pic2 = $portName;
         $bookings->top_title = $this->top_title;
         $bookings->left_title = $this->left_title;

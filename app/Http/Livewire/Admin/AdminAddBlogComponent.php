@@ -26,16 +26,16 @@ class AdminAddBlogComponent extends Component
     {
         $blogs = new Blog();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/blogs/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $blogs->bgCover = $imageName;
         $imgName = Carbon::now()->timestamp.'.'.$this->bgParallax->extension();
-        $this->bgParallax->storeAs('assets/frontend/pic',$imgName);
+        $this->bgParallax->storeAs('pic',$imgName);
         $blogs->bgParallax = $imgName;
         $picName = Carbon::now()->timestamp.'.'.$this->blog_pic->extension();
-        $this->blog_pic->storeAs('assets/frontend/pic',$picName);
+        $this->blog_pic->storeAs('pic',$picName);
         $blogs->blog_pic = $picName;
         $picsName = Carbon::now()->timestamp.'.'.$this->blog_pic2->extension();
-        $this->blog_pic2->storeAs('assets/frontend/pic',$picsName);
+        $this->blog_pic2->storeAs('pic',$picsName);
         $blogs->blog_pic2 = $picsName;
         $blogs->top_title = $this->top_title;
         $blogs->left_title = $this->left_title;

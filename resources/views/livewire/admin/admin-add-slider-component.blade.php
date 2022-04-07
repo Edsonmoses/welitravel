@@ -5,7 +5,9 @@
                 <div class="card">
                     <div class="card-body">
                         <p class="sub-header">
-                            Most common form control, text-based input fields. Includes support for all HTML5 types: <code>text</code>, <code>password</code>, <code>datetime</code>, <code>datetime-local</code>, <code>date</code>, <code>month</code>, <code>time</code>, <code>week</code>, <code>number</code>, <code>email</code>, <code>url</code>, <code>search</code>, <code>tel</code>, and <code>color</code>.
+                            @if (Session::has('message'))
+                        <div class="alert alert-success" role="alert">{{ Session::get('message') }}</div>
+                    @endif
                         </p>
                         <form class="form-horizontal" wire:submit.prevent="addSliders">
                             {{ csrf_field() }}

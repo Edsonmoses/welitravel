@@ -22,10 +22,10 @@ class AdminAddFactsComponent extends Component
     {
         $facts = new Facts();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/facts/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $facts->bgCover = $imageName;
         $imgName = Carbon::now()->timestamp.'.'.$this->image->extension();
-        $this->image->storeAs('assets/frontend/pic',$imgName);
+        $this->image->storeAs('pic',$imgName);
         $facts->image = $imgName;
         $facts->top_title = $this->top_title;
         $facts->title = $this->title;

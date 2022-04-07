@@ -24,13 +24,13 @@ class AdminAddGalleryComponent extends Component
     {
         $gallery = new Gallery();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/gallery/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $gallery->bgCover = $imageName;
         $imgName = Carbon::now()->timestamp.'.'.$this->port_pic->extension();
-        $this->port_pic->storeAs('assets/frontend/pic',$imgName);
+        $this->port_pic->storeAs('pic/portfolio',$imgName);
         $gallery->port_pic = $imgName;
         $portName = Carbon::now()->timestamp.'.'.$this->port_pic2->extension();
-        $this->port_pic2->storeAs('assets/frontend/pic',$portName);
+        $this->port_pic2->storeAs('pic/portfolio',$portName);
         $gallery->port_pic2 = $portName;
         $gallery->top_title = $this->top_title;
         $gallery->left_title = $this->left_title;

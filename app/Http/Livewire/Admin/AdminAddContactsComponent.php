@@ -22,7 +22,7 @@ class AdminAddContactsComponent extends Component
     {
         $contact = new Contact();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/aboutus/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $contact->bgCover = $imageName;
         $contact->name = $this->name;
         $contact->cont_icon = $this->cont_icon;

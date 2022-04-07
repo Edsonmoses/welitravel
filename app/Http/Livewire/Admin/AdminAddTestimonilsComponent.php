@@ -30,23 +30,23 @@ class AdminAddTestimonilsComponent extends Component
         $testimony = new Testimonils();
 
         $imageName = Carbon::now()->timestamp.'.'.$this->bgParallax->extension();
-        $this->bgParallax->storeAs('assets/frontend/pic/testimony/main',$imageName);
+        $this->bgParallax->storeAs('pic',$imageName);
         $testimony->bgParallax = $imageName;
 
         $testiName = Carbon::now()->timestamp.'.'.$this->testi_pic->extension();
-        $this->testi_pic->storeAs('assets/frontend/pic/testimony/main',$testiName);
+        $this->testi_pic->storeAs('pic/testimonial',$testiName);
         $testimony->testi_pic = $testiName;
 
         $testimName = Carbon::now()->timestamp.'.'.$this->testi_pic2->extension();
-        $this->testi_pic2->storeAs('assets/frontend/pic/testimony/main',$testimName);
+        $this->testi_pic2->storeAs('pic/testimonial',$testimName);
         $testimony->testi_pic2 = $testimName;
 
         $authorName = Carbon::now()->timestamp.'.'.$this->author_pic->extension();
-        $this->author_pic->storeAs('assets/frontend/pic/testimony/main',$authorName);
+        $this->author_pic->storeAs('pic/testimonial/author',$authorName);
         $testimony->author_pic = $authorName;
 
         $authorsName = Carbon::now()->timestamp.'.'.$this->author_pic2->extension();
-        $this->author_pic2->storeAs('assets/frontend/pic/testimony/main',$authorsName);
+        $this->author_pic2->storeAs('pic/testimonial/author',$authorsName);
         $testimony->author_pic2 = $authorsName;
 
         $testimony->top_title = $this->top_title;

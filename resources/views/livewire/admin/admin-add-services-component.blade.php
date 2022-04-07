@@ -4,7 +4,9 @@
             <div class="col-xl-12">
                 <div class="card">
                     <div class="card-body">
-
+                        @if (Session::has('message'))
+                        <div class="alert alert-success" role="alert">{{ Session::get('message') }}</div>
+                    @endif
                         <h4 class="header-title mt-0 mb-3">Slider Headers</h4>
 
                         <div class="table-responsive">

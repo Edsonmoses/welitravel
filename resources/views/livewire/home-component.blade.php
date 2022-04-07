@@ -1,7 +1,7 @@
 <div>
       @livewire('headers-component')
       <!-- page section-->
-      <section class="page-section pb-0" style="padding: 15px 0 0 0 !important;">
+      <section class="page-section pb-0" style="padding: 0px 0 0 0 !important;">
         @livewire('tours-component')
       </section>
       <!-- ! page section-->

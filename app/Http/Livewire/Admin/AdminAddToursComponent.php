@@ -27,11 +27,11 @@ class AdminAddToursComponent extends Component
         $tour = new Tour();
 
         $imageName = Carbon::now()->timestamp.'.'.$this->image->extension();
-        $this->image->storeAs('assets/frontend/pic/Testimony/main',$imageName);
+        $this->image->storeAs('pic/tours',$imageName);
         $tour->image = $imageName;
 
         $testiName = Carbon::now()->timestamp.'.'.$this->image_2->extension();
-        $this->image_2->storeAs('assets/frontend/pic/tour/main',$testiName);
+        $this->image_2->storeAs('pic/tours',$testiName);
         $tour->image_2 = $testiName;
 
         $tour->features_priceInfo = $this->features_priceInfo;

@@ -10,7 +10,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">United arab emirates</span> Abu Dhabi</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">United Arab Emirates</span>Abu Dhabi </h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -22,7 +22,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">United kingdom</span> London</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">United Arab Emirates</span> Abu Dhabi</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -34,7 +34,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Australia ans oceania</span> Sydney</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">Doha Habour</span> Qatar</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Brazil</span> Rio de janeiro</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">Saudi Arabia</span>Jeddah</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Maldives</span> Male</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">Saudi Arabia</span> Makkah</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -70,7 +70,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Turkey</span> Istanbul</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">Turkey</span> Panoramic Izmir City</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -82,7 +82,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Austria</span> Vienna</h4><a href="hotels-details.html" class="button">Details</a>
+                <h4 class="title"><span class="font-4">Qatar.</span> Riyadh</h4><a href="hotels-details.html" class="button">Details</a>
               </div>
             </div>
           </div>
@@ -94,7 +94,7 @@
                 <p class="info-text">Etiam malesuada lectus tempor, ultricies lectus in, convallis massa.</p>
               </div>
               <div class="features-info-bot">
-                <h4 class="title"><span class="font-4">Italy</span> Venice</h4><a href="hotels-details.html" class="button">Details		</a>
+                <h4 class="title"><span class="font-4">India</span> Taj Mahal</h4><a href="hotels-details.html" class="button">Details		</a>
               </div>
             </div>
           </div>

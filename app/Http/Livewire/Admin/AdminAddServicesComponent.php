@@ -22,7 +22,7 @@ class AdminAddServicesComponent extends Component
     {
         $services = new Services();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/services/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $services->bgCover = $imageName;
         $services->top_title = $this->top_title;
         $services->title = $this->title;

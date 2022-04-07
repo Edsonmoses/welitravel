@@ -14775,3 +14775,6 @@ p.error:before {
 .purl .positions {
     line-height: 1 !important;
 }
+.tp-caption .sl-title-bot {
+    font-size: 1.7em !important;
+}

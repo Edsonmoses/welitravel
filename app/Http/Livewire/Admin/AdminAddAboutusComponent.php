@@ -26,16 +26,16 @@ class AdminAddAboutusComponent extends Component
     {
         $aboutus = new Aboutus();
         $imageName = Carbon::now()->timestamp.'.'.$this->bgCover->extension();
-        $this->bgCover->storeAs('assets/frontend/pic/aboutus/main',$imageName);
+        $this->bgCover->storeAs('pic/breadcrumbs',$imageName);
         $aboutus->bgCover = $imageName;
         $imgName = Carbon::now()->timestamp.'.'.$this->bgImage->extension();
-        $this->bgImage->storeAs('assets/frontend/pic',$imgName);
+        $this->bgImage->storeAs('pic',$imgName);
         $aboutus->bgImage = $imgName;
         $infName = Carbon::now()->timestamp.'.'.$this->image->extension();
-        $this->image->storeAs('assets/frontend/pic',$infName);
+        $this->image->storeAs('pic',$infName);
         $aboutus->image = $infName;
        // $videoName = Carbon::now()->timestamp.'.'.$this->video->extension();
-        //$this->video->storeAs('assets/frontend/pic',$videoName);
+        //$this->video->storeAs('pic',$videoName);
         //$aboutus->video = $videoName;
         $aboutus->video = $this->video;
         $aboutus->top_title = $this->top_title;

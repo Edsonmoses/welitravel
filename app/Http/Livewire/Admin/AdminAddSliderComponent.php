@@ -40,13 +40,13 @@ class AdminAddSliderComponent extends Component
        $slider->price = $this->price;
        $slider->per = $this->per;
        $imageName = Carbon::now()->timestamp.'.'.$this->image->extension();
-       $this->image->storeAs('assets/frontend/pic/slider/main',$imageName);
+       $this->image->storeAs('pic/slider/main',$imageName);
        $slider->image = $imageName;
        $imgName = Carbon::now()->timestamp.'.'.$this->infoImage->extension();
-       $this->infoImage->storeAs('assets/frontend/pic',$imgName);
+       $this->infoImage->storeAs('pic',$imgName);
        $slider->infoImage = $imgName;
        $infName = Carbon::now()->timestamp.'.'.$this->infoImage2->extension();
-       $this->infoImage2->storeAs('assets/frontend/pic',$infName);
+       $this->infoImage2->storeAs('pic',$infName);
        $slider->infoImage2 = $infName;
        $slider->infoprice = $this->infoprice;
        $slider->infotemp = $this->infotemp;
