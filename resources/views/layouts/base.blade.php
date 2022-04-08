@@ -47,7 +47,7 @@
             </div>
             <div class="col-md-6 col-sm-5 text-right">
               <div class="top-right-wrap">
-                  <a href="/Contact" class="{{ (request()->is('Contact*')) ? 'active' : '' }} mr-10">Contact</a>
+                  <a href="/Contact" class="{{ (request()->is('Contact*')) ? 'active' : '' }}" style="margin-right: 15px;">Contact</a>
                   <div class="top-login">
                      <a href="#">My Account</a>
                 </div>
