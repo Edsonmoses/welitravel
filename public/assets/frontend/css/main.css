@@ -14778,3 +14778,7 @@ p.error:before {
 .tp-caption .sl-title-bot {
     font-size: 1.7em !important;
 }
+
+.tp-caption {
+    margin-top: -50px !important;
+  }

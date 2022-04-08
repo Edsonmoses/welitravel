@@ -10,9 +10,20 @@ class AdminSettingSlidersComponent extends Component
     public $name;
     public $status;
 
-    public function updateSetting($status)
+    public function mount()
     {
-        $slider = SliderSetting::find($status);
+        $this->status = 'active';
+    }
+    public function deactivate($id)
+    {
+        $slider = SliderSetting::find($id);
+        $slider->status = 'inactive';
+        $slider->save();
+        session()->flash('message','Slider has been Deactivated successfully!');
+    }
+    public function updateSetting($id)
+    {
+        $slider = SliderSetting::find($id);
         $slider->status = $this->status;
         $slider->save();
         session()->flash('message','Slider has been Actived successfully!');

@@ -185,8 +185,10 @@
         <!-- widget footer-->
         <div class="col-md-3 col-sm-6">
           <div class="widget-footer">
-            <h4>Tag cloud</h4>
-            <div class="widget-tags-wrap"><a href="#" rel="tag" class="tag">Adventure</a><a href="#" rel="tag" class="tag">Romantic</a><a href="#" rel="tag" class="tag">Wildlife</a><a href="#" rel="tag" class="tag">Beach</a><a href="#" rel="tag" class="tag">Honeymoon</a><a href="#" rel="tag" class="tag">Island</a><a href="#" rel="tag" class="tag">Parks</a><a href="#" rel="tag" class="tag">Family</a><a href="#" rel="tag" class="tag">Travel</a></div>
+            <h4>Certified by</h4>
+            <div class="widget-tags-wrap">
+              <img src="{{ asset('assets/frontend/pic/Weli-Travel_IATA-Logo.png')}}" data-at2x="{{ asset('assets/frontend/pic/Weli-Travel_IATA-Logo.png')}}" alt>
+            </div>
           </div>
         </div>
         <!-- end widget footer-->
