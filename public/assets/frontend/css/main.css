@@ -14782,3 +14782,6 @@ p.error:before {
 .tp-caption {
     margin-top: -50px !important;
   }
+  .sicon img{
+      margin: 0 auto !important;
+  }

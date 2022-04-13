@@ -125,20 +125,20 @@
           <div class="row mb-40">
             <div class="col-md-3 mb-md-30">
               <h5 class="mb-0 text-center"><img src="{{ asset('assets/frontend/pic/About-Us/Budget.svg')}}" alt width="100" height="100"></h5>
-              We are flexible and compliant to our clientele given the tailored made expeditions that exceed the customer’s pleasure. Pay a visit to the sacred places thrice a year and do not wait!
+              <p style="font-size: 13px;">We are flexible and compliant to our clientele given the tailored made expeditions that exceed the customer’s pleasure. Pay a visit to the sacred places thrice a year and do not wait!</p>
             </div>
             <div class="col-md-3 mb-md-30">
               <h5 class="mb-0  text-center us"><img src="{{ asset('assets/frontend/pic/About-Us/Competitive Staff.svg')}}" alt width="100" height="100"></h5>
-              Our tariffs are competitive and are customized to ensure that our clients obtain a budget that is pocket friendly. We offer different grades of accommodation ranging from 2 star to 5 star hotels
+              <p style="font-size: 13px;">Our tariffs are competitive and are customized to ensure that our clients obtain a budget that is pocket friendly. We offer different grades of accommodation ranging from 2 star to 5 star hotels</p>
             </div>
             <div class="col-md-3 mb-md-30">
               <h5 class="mb-0  text-center"><img src="{{ asset('assets/frontend/pic/About-Us/Expeditions.svg')}}" alt width="100" height="100"></h5>
-              Staff at Weli Travel are trustworthy, honest and authentic due to the importance of our clientele. This is evidenced by the high level of personal attention when planning your expedition which proves that our customer is the Boss.
+              <p style="font-size: 13px;">Staff at Weli Travel are trustworthy, honest and authentic due to the importance of our clientele. This is evidenced by the high level of personal attention when planning your expedition which proves that our customer is the Boss.</p>
             </div>
             <div class="col-md-3">
               <h5 class="mb-0 text-center"><img src="{{ asset('assets/frontend/pic/About-Us/Transportation.svg')}}" alt width="100" height="100">
               </h5>
-              Weli Travel offers Luxurious ground and Air transportation for its clients to ensure coziness or pleasant travel.
+              <p style="font-size: 13px;"> Weli Travel offers Luxurious ground and Air transportation for its clients to ensure coziness or pleasant travel.</p>
             </div>
           </div>
         </div>

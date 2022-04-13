@@ -9,9 +9,10 @@
               
             </div>
             </div>
-            <div class="row">
+            <div class="row sicon">
             <div class="col-md-4">
-              <h5>1. Hajj and Umrah</h5>
+              <h5><img src="{{ asset('assets/frontend/pic/About-Us/Hajj & Umrah-01.svg')}}" alt width="100" height="100"><br/>
+                1. Hajj and Umrah</h5>
               <ul class="style-2">
                 <li>Accommodation </li>
                 <li>Visa acquisition and processing</li>
@@ -28,25 +29,25 @@
               </ul>
             </div>
             <div class="col-md-4">
-              <h5>2. Visa processing</h5>
+              <h5><img src="{{ asset('assets/frontend/pic/About-Us/Visa Processing-03.svg')}}" alt width="100" height="100"><br/>2. Visa processing</h5>
               <ul class="style-2">
                 <li>All the Saudi Arabia Visas</li>
                 <li>All United Arab Emirates Visas</li>
               </ul>
             </div>
             <div class="col-md-4">
-              <h5>3. Ticketing</h5>
+              <h5><img src="{{ asset('assets/frontend/pic/About-Us/Air Ticketing-04.svg')}}" alt width="100" height="100"><br/>3. Ticketing</h5>
             </div>
             </div>
             <div class="row">
             <div class="col-md-4">
-              <h5>4. Car renting </h5>
+              <h5><img src="{{ asset('assets/frontend/pic/About-Us/Car Rental-02.svg')}}" alt width="100" height="100"><br/>4. Car renting </h5>
             </div>
             <div class="col-md-4">
-               <h5>5. Hotel bookings</h5>
+               <h5><img src="{{ asset('assets/frontend/pic/About-Us/Hotel Bookings-05.svg')}}" alt width="100" height="100"><br/>5. Hotel bookings</h5>
             </div>
             <div class="col-md-4">
-              <h5> 6. Accommodation </h5>
+              <h5> <img src="{{ asset('assets/frontend/pic/About-Us/Accomodation-06.svg')}}" alt width="100" height="100"><br/>6. Accommodation </h5>
             </div>
           </div>
         </div>

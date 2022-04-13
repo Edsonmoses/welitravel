@@ -66,45 +66,60 @@
                 <!-- Blog item-->
                 <div class="blog-item clearfix">
                   <!-- Blog Image-->
-                  <div class="blog-media"><a href="blog-single.html">
-                      <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/270x270/1.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/270x270/1@2x.jpg')}}" alt></div></a></div>
+                  <div class="blog-media"><a href="#">
+                      <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/540X540_Blog.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/540X540_Blog.jpg')}}" alt width="270" height="270"></div></a></div>
                   <!-- blog body-->
                   <div class="blog-item-body clearfix">
-                    <!-- title--><a href="blog-single.html">
+                    <!-- title--><a href="#">
                       <h6 class="blog-title">Description of Hajj</h6></a>
                     <div class="blog-item-data">Mon, 03-23-2016</div>
                     <!-- Text Intro-->
-                    <p>Assuming the state of ihram from Miqat. It is legislated for whoever wants to perform hajj or Umra to perform ghusl, remove the unwanted hairs </p><a href="blog-single.html" class="blog-button">Read more</a>
+                    <p>Assuming the state of ihram from Miqat. It is legislated for whoever wants to perform hajj or Umra to  </p><a href="#" class="blog-button">Read more</a>
                   </div>
                 </div>
                 <!-- ! Blog item-->
                 <!-- Blog item-->
                 <div class="blog-item clearfix">
                   <!-- Blog Image-->
-                  <div class="blog-media"><a href="blog-single.html">
-                      <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/270x270/2.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/270x270/2@2x.jpg')}}" alt></div></a></div>
+                  <div class="blog-media"><a href="#">
+                      <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/540X540_Blog3.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/540X540_Blog3.jpg')}}" alt width="270" height="270"></div></a></div>
                   <!-- blog body-->
                   <div class="blog-item-body clearfix">
-                    <!-- title--><a href="blog-single.html">
-                      <h6 class="blog-title">Aenean nec urna ullamcorper</h6></a>
+                    <!-- title--><a href="#">
+                      <h6 class="blog-title">One Million Pilgrims to Perform Hajj in 1443H/2022</h6></a>
                     <div class="blog-item-data">Mon, 03-23-2016</div>
                     <!-- Text Intro-->
-                    <p>Nullam efficitur lorem eu felis rutrum elementum. Vestibulum feugiat massa id ante scelerisque blandit.</p><a href="blog-single.html" class="blog-button">Read more</a>
+                    <p>The Ministry of Hajj and Umrah in the Kingdom of</p><a href="#" class="blog-button">Read more</a>
                   </div>
                 </div>
                 <!-- ! Blog item-->
                 <!-- Blog item-->
                 <div class="blog-item clearfix">
                   <!-- Blog Image-->
-                  <div class="blog-media"><a href="blog-single.html">
+                  <div class="blog-media"><a href="#">
                       <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/270x270/3.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/270x270/3@2x.jpg')}}" alt></div></a></div>
                   <!-- blog body-->
                   <div class="blog-item-body clearfix">
-                    <!-- title--><a href="blog-single.html">
+                    <!-- title--><a href="#">
                       <h6 class="blog-title">Etiam sit amet est et massa</h6></a>
                     <div class="blog-item-data">Mon, 03-23-2016</div>
                     <!-- Text Intro-->
-                    <p>urabitur rhoncus sem et eros pharetra euismod. Ut commodo sem magna, in congue ex vestibulum ut.</p><a href="blog-single.html" class="blog-button">Read more</a>
+                    <p>urabitur rhoncus sem et eros pharetra euismod. Ut commodo sem magna, in congue ex vestibulum ut.</p><a href="#" class="blog-button">Read more</a>
+                  </div>
+                </div>
+                <!-- ! Blog item-->
+                 <!-- Blog item-->
+                 <div class="blog-item clearfix">
+                  <!-- Blog Image-->
+                  <div class="blog-media"><a href="#">
+                      <div class="pic"><img src="{{ asset('assets/frontend/pic/blog/270x270/3.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/blog/270x270/3@2x.jpg')}}" alt></div></a></div>
+                  <!-- blog body-->
+                  <div class="blog-item-body clearfix">
+                    <!-- title--><a href="#">
+                      <h6 class="blog-title">Etiam sit amet est et massa</h6></a>
+                    <div class="blog-item-data">Mon, 03-23-2016</div>
+                    <!-- Text Intro-->
+                    <p>urabitur rhoncus sem et eros pharetra euismod. Ut commodo sem magna, in congue ex vestibulum ut.</p><a href="#" class="blog-button">Read more</a>
                   </div>
                 </div>
                 <!-- ! Blog item-->
