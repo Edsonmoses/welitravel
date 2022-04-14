@@ -170,7 +170,7 @@
           </div>
           <p class="color-g2 mt-10">Weli Travel has been providing a wide variety of Hajj and Umrah travel packages to guests like you. We have built a reputation as one of the best travel agencies in our industry thus making us the leading Hajj and Umrah travel agency in Uganda. We also help our clients in Umrah Visa and other travel solutions packages, so that you can have the best experience</p>
           <!-- social-->
-          <div class="social-link dark"><a href="#" class="cws-social fa fa-twitter"></a><a href="#" class="cws-social fa fa-facebook"></a><a href="#" class="cws-social fa fa-google-plus"></a><a href="#" class="cws-social fa fa-linkedin"></a></div>
+          <div class="social-link dark"><a href="https://twitter.com/welitravel" class="cws-social fa fa-twitter" target="_blank"></a><a href="https://www.facebook.com/welitravel/" class="cws-social fa fa-facebook" target="_blank"></a><a href="https://www.instagram.com/welitravel/" class="cws-social fa fa-instagram" target="_blank"></a><a href="https://www.linkedin.com" class="cws-social fa fa-linkedin" target="_blank"></a><a href="https://www.youtube.com/channel/UC5zlrFVatL-5yA1TJmQeOjA/featured" class="cws-social fa fa-youtube-play" target="_blank"></a></div>
           <!-- ! social-->
         </div>
         <!-- ! widget footer-->
