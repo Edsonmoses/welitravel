@@ -8,7 +8,10 @@
               <h2 class="title-section-top alt gray"> History</h2>
               <h2 class="title-section alt gray mb-20 font-bold"><span>Weli</span> Travel </h2>
               <!-- ! section title-->
-              <p class="mb-30">has been providing a wide variety of Hajj and Umrah travel packages to guests like you. We have built a reputation as one of the best travel agencies in our industry thus making us the leading Hajj and Umrah travel agency in Uganda. We also help our clients in Umrah Visa and other travel solutions packages, so that you can have the best experience.</p>
+              <p class="mb-30">At Weli Travel, our purpose is simple - to be your number one partner for all your travel solutions.
+                Founded in 2017 as a private company, we have quickly grown to become one of the leading travel agency company in Uganda.
+                We are a full-service travel agency that specializes in professional, friendly and efficient organization of Hajj and Umrah services. We also serve all types of travellers who require organized outbound and inbound travel and tourism needs.
+                Our company is strengthened with a well experienced, knowledgeable and highly qualified team each with considerable experience, enthusiasm, commitment and a creative spirit to deliver in all services we offer to all aspects of travel.</p>
               <p class="mb-5"> An array of services done by Weli Travel:</p>
 
               <p class="mb-5 ml-20">1. Hajj and Umrah</p>
@@ -88,32 +91,40 @@
             <div class="col-md-6 mt-md-40">
               <div class="tabs">
                 <div class="block-tabs-btn clearfix">
-                  <div data-tabs-id="tabs1" class="tabs-btn active">Vision</div>
-                  <div data-tabs-id="tabs2" class="tabs-btn">Mission</div>
-                  <div data-tabs-id="tabs3" class="tabs-btn">Future plans</div>
+                  <div data-tabs-id="tabs1" class="tabs-btn active">Our Vision</div>
+                  <div data-tabs-id="tabs2" class="tabs-btn">Our Mission</div>
+                  <div data-tabs-id="tabs3" class="tabs-btn">OUR CORE VALUES</div>
+                  <div data-tabs-id="tabs4" class="tabs-btn">A BRIGHTER FUTURE</div>
                 </div>
                 <!-- tabs keeper-->
                 <div class="tabs-keeper">
                   <!-- tabs container-->
                   <div data-tabs-id="cont-tabs1" class="container-tabs active">
-                    <h6 class="trans-uppercase">Vision</h6>
-                    <p>We guarantee optimum observation, fulfilment and satisfaction of our clientele during the sacred call.</p>
+                    <h6 class="trans-uppercase">Our Vision</h6>
+                    <p>To be the leading all-rounded agency in the region offering global standard services for the ease and comfort of our clients.</p>
                   </div>
                   <!-- /tabs container-->
                   <!-- tabs container-->
                   <div data-tabs-id="cont-tabs2" class="container-tabs">
-                    <h6 class="trans-uppercase">Mission</h6>
-                    <p>To simplify the pilgrimage setting for the development of Belief in the souls of our clientele at attractive tariffs.</p>
+                    <h6 class="trans-uppercase">Our Mission</h6>
+                    <p>To meet our daily clients’ needs through providing efficient and cost-effective travel solutions with excellent customer care service.</p>
                   </div>
                   <!-- /tabs container-->
                   <!-- tabs container-->
                   <div data-tabs-id="cont-tabs3" class="container-tabs">
-                    <h6 class="trans-uppercase">Future plans</h6>
+                    <h6 class="trans-uppercase">OUR CORE VALUES</h6>
                     <ul class="style-3">
-                      <li>We are looking at offering visa to Islamic historical places in Spain, Turkey, Portugal and Egypt etc. Also we shall enable our clients to attain better healthcare through accomplishing Medical Visas to India.</li>
-                      <li>We are looking forward to bringing access to international visas for our customers in order to satisfy their travel objectives.</li>
-                      <li>We have an advanced plan of native tours.</li>
+                      <li>Integrity</li>
+                      <li>Professionalism</li>
+                      <li>Reliability and Flexibility</li>
                     </ul>
+                  </div>
+                  <!-- /tabs container-->
+                   <!-- tabs container-->
+                   <div data-tabs-id="cont-tabs4" class="container-tabs">
+                    <h6 class="trans-uppercase">A BRIGHTER FUTURE</h6>
+                    <p>Weli Travel is excited about its future with great plans to further extend its branches to regional and international destinations. We hope to continue our growth by providing more extensive services and options to our clients and partners worldwide.</p>
+                    <p>We want to be more than just an agency. We want to be your number one solution for all your traveling needs.</p>
                   </div>
                   <!-- /tabs container-->
                 </div>
@@ -159,7 +170,15 @@
               <h6 class="title-section-top font-4">Our team</h6>
               <h2 class="title-section"><span>Work for</span> You</h2>
               <div class="cws_divider mb-25 mt-5"></div>
-              <p>An array of qualified staff from a number of fields with a rounded skillset and experience in the travel industry awaits you. On addition to the hospitable staff, we have the IATA trained personnel who will give you professional advice about your itinerary. The customer is assured of a reply on his/her inquiry after one working hour. At Weli travel we have undisputed networks that enable us deliver and exceed the customer’s expectations. Our expeditions are not about the terminus, we offer an assessment of the sacred land, people and antiquity of the region hence a life-changing journey.</p>
+              <p>AWeli Travel is equipped with friendly, professional and competent staff who always do their best to ensure the best delivery of all our services.</p>
+              <p>With our aim being the complete satisfaction and to exceed the expectations of our clients, all travel related services are delivered on time, covering every detail required for the client’s itinerary.</p>
+              <p>Our superior customer services include:</p>
+              <ul class="style-2">
+                <li>24/7 promise of service delivery including out of office hours</li>
+                <li>Multiple options and flexibility to accommodate our client’s needs</li>
+                <li>Clear and quick notifications on flight changes</li>
+                <li>The best possible advise as far as your booking is concerned</li>
+              </ul>
             </div>
           </div>
           <div class="row profile-col">
