@@ -91,10 +91,10 @@
             <div class="col-md-6 mt-md-40">
               <div class="tabs">
                 <div class="block-tabs-btn clearfix">
-                  <div data-tabs-id="tabs1" class="tabs-btn active">Our Vision</div>
-                  <div data-tabs-id="tabs2" class="tabs-btn">Our Mission</div>
-                  <div data-tabs-id="tabs3" class="tabs-btn">OUR CORE VALUES</div>
-                  <div data-tabs-id="tabs4" class="tabs-btn">A BRIGHTER FUTURE</div>
+                  <div data-tabs-id="tabs1" class="tabs-btn active">Vision</div>
+                  <div data-tabs-id="tabs2" class="tabs-btn">Mission</div>
+                  <div data-tabs-id="tabs3" class="tabs-btn">CORE VALUES</div>
+                  <div data-tabs-id="tabs4" class="tabs-btn">FUTURE PLANS</div>
                 </div>
                 <!-- tabs keeper-->
                 <div class="tabs-keeper">
