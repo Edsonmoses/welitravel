@@ -17,7 +17,7 @@
       </ul>
     </div>
     <!-- search tours form-->
-    <div class="search-tours-form">
+   {{--  <div class="search-tours-form">
       <div class="container">
         <div class="search-tours-wrap">
           <div class="search-tours-tabs">
@@ -335,7 +335,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>--}}
     <!-- ! search tours form-->
   </div> 
   @elseif ($setting->name == 'SLIDER') 

@@ -6,7 +6,7 @@
       </section>
       <!-- ! page section-->
       <!-- counter section -->
-      @livewire('counter-component')
+      {{--  @livewire('counter-component')--}}
       <!-- ! counter section-->
       <!-- page section parallax-->
       <section class="small-section cws_prlx_section bg-gray-40"><img src="{{ asset('assets/frontend/pic/1920x630_Parallax 1.jpg')}}" alt class="cws_prlx_layer">
@@ -29,7 +29,7 @@
       </section>
       <!-- ! page section parallax-->
       <!-- recomended section-->
-      @livewire('hotels-component')
+     {{-- @livewire('hotels-component') --}}
       <!-- ! recomended section-->
       <!-- testimonials section-->
       <section class="small-section cws_prlx_section bg-blue-40"><img src="{{ asset('assets/frontend/pic/1920x1280_Parallax 2.jpg')}}" alt class="cws_prlx_layer">
@@ -46,10 +46,10 @@
       </section>
       <!-- ! testimonials section-->
       <!-- gallery section-->
-      @livewire('gallery-component')
+      {{-- @livewire('gallery-component')--}}
       <!-- ! gallery section-->
       <!-- section testimonials-->
-      <section class="small-section cws_prlx_section bg-blue-40"><img src="{{ asset('assets/frontend/pic/1920x1443_Parallax 3.jpg')}}" alt class="cws_prlx_layer">
+      {{-- <section class="small-section cws_prlx_section bg-blue-40"><img src="{{ asset('assets/frontend/pic/1920x1443_Parallax 3.jpg')}}" alt class="cws_prlx_layer">
         <div class="container">
           <div class="row mb-50">
             <div class="col-md-8">
@@ -127,7 +127,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>--}}
       <!-- ! section testimonials-->
       <!-- call out section-->
       <section class="page-section pt-90 pb-80 bg-main pattern relative">

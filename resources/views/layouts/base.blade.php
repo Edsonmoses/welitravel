@@ -34,7 +34,7 @@
     <!-- header page-->
     <header>
       <!-- site top panel-->
-      <div class="site-top-panel">
+      {{--<div class="site-top-panel">
         <div class="container p-relative">
           <div class="row">
             <div class="col-md-6 col-sm-7">
@@ -82,10 +82,10 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>--}}
       <!-- ! site top panel-->
       <!-- Navigation panel-->
-      <nav class="main-nav js-stick">
+      <nav class="main-nav transparent stick-fixed">
         <div class="full-wrapper relative clearfix container">
           <!-- Logo ( * your text or image into link tag *)-->
           <div class="nav-logo-wrap local-scroll"><a href="/" class="logo"><img src="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" data-at2x="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" alt width="172" height="37"></a></div>
@@ -96,20 +96,25 @@
               <li class="slash">/</li>
               <li><a href="/About-us" class="mn-has-sub {{ (request()->is('About-us*')) ? 'active' : '' }}">About Us</a></li>
               <li class="slash">/</li>
-              <li><a href="/Services" class="mn-has-sub {{ (request()->is('Services*')) ? 'active' : '' }}">Services</a></li>
-              <li class="slash">/</li>
-              <li><a href="/Packages" class="mn-has-sub {{ (request()->is('Packages*')) ? 'active' : '' }}">Packages</a></li>
-             {{-- <li class="slash">/</li>
+              <li><a href="/Services" class="mn-has-sub {{ (request()->is('Services*')) ? 'active' : '' }}">Services<i class="fa fa-angle-down button_open"></i></a>
+                <ul class="mn-sub">
+                  <li class="{{ (request()->is('Booking-terms*')) ? 'active' : '' }}"><a href="/Booking-terms">Booking Terms</a></li>
+                  <li class="{{ (request()->is('Hotel-booking*')) ? 'active' : '' }}"><a href="/Hotel-booking">Hotel Bookings</a></li>
+                   <li><a href="/Packages" class="mn-has-sub {{ (request()->is('Packages*')) ? 'active' : '' }}">Packages</a></li>
+                </ul>
+              </li>
+              {{-- <li class="slash">/</li>
+             <li class="slash">/</li>
               <li><a href="/Blog" class="mn-has-sub {{ (request()->is('Blog*')) ? 'active' : '' }}">Blog</a></li>
               <li class="slash">/</li>
               <li><a href="/Contact" class="mn-has-sub {{ (request()->is('Contact*')) ? 'active' : '' }}">Contact</a></li>--}}
-              <li class="slash">/</li>
+              {{--<li class="slash">/</li>
               <li><a href="/Hotel-booking" class="mn-has-sub {{ (request()->is('Hotel*')) ? 'active' : '' }} {{ (request()->is('Booking*')) ? 'active' : '' }}">Hotels <i class="fa fa-angle-down button_open"></i></a>
                 <ul class="mn-sub">
                   <li class="{{ (request()->is('Booking-terms*')) ? 'active' : '' }}"><a href="/Booking-terms">Booking Terms</a></li>
                   <li class="{{ (request()->is('Hotel-booking*')) ? 'active' : '' }}"><a href="/Hotel-booking">Hotel Bookings</a></li>
                 </ul>
-              </li>
+              </li>--}}
              {{-- <li class="slash">/</li>
               <li><a href="/Gallery" class="mn-has-sub {{ (request()->is('Gallery*')) ? 'active' : '' }}">Gallery</a></li>
               <li class="slash">/</li>
@@ -118,7 +123,7 @@
               <li><a href="/Wallpaper" class="mn-has-sub {{ (request()->is('Wallpaper*')) ? 'active' : '' }}">Free Wallpaper</a></li>
               <!-- End Item-->
               <!-- Search-->
-              <li class="search"><a href="#" class="mn-has-sub">Search</a>
+             {{-- <li class="search"><a href="#" class="mn-has-sub">Search</a>
                 <ul class="search-sub">
                   <li>
                     <div class="container">
@@ -133,7 +138,7 @@
                     </div>
                   </li>
                 </ul>
-              </li>
+              </li>--}}
               <!-- End Search-->
             </ul>
           </div>
@@ -201,7 +206,7 @@
           <div class="col-sm-6">
             <p>© Copyright <?php echo date("Y");?> <span>Welitravel</span> &nbsp;&nbsp;|&nbsp;&nbsp; All Rights Reserved</p>
           </div>
-          <div class="col-sm-6 text-right"><a href="/" class="footer-nav">Home</a><a href="/About-us" class="footer-nav">About Us</a><a href="/Hotel-booking" class="footer-nav">Hotels</a><a href="/Blog" class="footer-nav">Blog</a><a href="/Faq" class="footer-nav">Faqs</a><a href="/Contact" class="footer-nav">Contacts</a></div>
+          <div class="col-sm-6 text-right"><a href="/home" class="footer-nav">Home</a><a href="/About-us" class="footer-nav">About Us</a><a href="/Gallery" class="footer-nav">Gallery</a><a href="/Hotel-booking" class="footer-nav">Hotels</a><a href="/Blog" class="footer-nav">Blog</a><a href="/Faq" class="footer-nav">Faqs</a><a href="/Contact" class="footer-nav">Contacts</a></div>
         </div>
       </div>
     </div>
