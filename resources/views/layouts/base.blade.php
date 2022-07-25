@@ -87,10 +87,11 @@
       </div>--}}
       <!-- ! site top panel-->
       <!-- Navigation panel-->
-      <nav class="main-nav transparent stick-fixed">
+     <nav class="main-nav transparent stick-fixed">
         <div class="full-wrapper relative clearfix container">
           <!-- Logo ( * your text or image into link tag *)-->
-          <div class="nav-logo-wrap local-scroll"><a href="/" class="logo"><img src="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" data-at2x="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" alt width="172" height="37"></a></div>
+          <div class="nav-logo-wrap local-scroll">
+            <a href="/" class="logo"><img src="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" data-at2x="{{ asset('assets/frontend/img/Weli Travel Logo_-09.svg')}}" alt width="172" height="37"><img src="{{ asset('assets/frontend/img/Weli Travel Logo_-10.svg')}}" data-at2x="{{ asset('assets/frontend/img/Weli Travel Logo_-10.svg')}}" alt class="logo-white" width="172" height="37"></a></div>
           <!-- Main Menu-->
           <div class="inner-nav desktop-nav">
             <ul class="clearlist">
@@ -154,7 +155,8 @@
        <!-- breadcrumbs start-->
        <section style="background-image:url('{{ asset('assets/frontend/pic/breadcrumbs/1920x165_Bg-1.jpg')}}')" class="breadcrumbs">
         <div class="container">
-          <div class="text-left breadcrumbs-item"><a href="/">home</a><i>/</i><a href="#" class="last"><span>{{ Request::path() }} </span></a>
+          <div class="text-left breadcrumbs-item">
+            <a href="/" class="pt-30">home</a><i>/</i><a href="#" class="last pt-30"><span>{{ Request::path() }} </span></a>
             <h2><span>{{ Request::path() }} </span></h2>
           </div>
         </div>

@@ -13,11 +13,11 @@
               <p class="mb-20">Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, port titor eu, consequat vitae, eleifend ac, enim.</p>
               <p class="mb-20">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <ins>natoque penatibus</ins> et magnis dis parturient montes, nascetur ridi culus mus. Donec quam felis, ultricies nec, pellentesque eu :</p>
               <!-- list-->
-              <ul class="style-2 mb-30">
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit seres</li>
-                <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget</li>
-                <li>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, jur</li>
-                <li>Aenean leo ligula, porttitor eu, consequat vitae, eleifend	</li>
+              <ul class="style-5 mb-30">
+                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit seres</li>
+                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Donec pede justo, fringilla vel, aliquet nec, vulputate eget</li>
+                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> In enim justo, rhoncus ut, imperdiet a, venenatis vitae, jur</li>
+                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Aenean leo ligula, porttitor eu, consequat vitae, eleifend	</li>
               </ul>
               <!-- ! list--><a href="#" class="cws-button alt">Book Now</a><!--<a href="#" class="cws-button alt gray-dark">Learn more</a>-->
             </div>

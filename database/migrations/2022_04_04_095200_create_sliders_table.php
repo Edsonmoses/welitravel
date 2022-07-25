@@ -18,6 +18,7 @@ class CreateSlidersTable extends Migration
             $table->string('image')->nullable('NULL');
             $table->string('title')->nullable('NULL');
             $table->string('subtitle')->nullable('NULL');
+            $table->string('slug')->nullable('NULL');
             $table->string('Starting')->nullable('NULL');
             $table->string('price')->nullable(0);
             $table->string('per')->nullable('NULL');

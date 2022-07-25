@@ -38,7 +38,7 @@
                                         @endif
                                         </td>
                                         <td>
-                                            <a  href="{{ route('admin.editslider',['slug'=>$slider->subtitle]) }}" class="btn btn-primary btn-sm">Edit</a>
+                                            <a  href="{{ route('admin.editslider',['slug'=>$slider->slug]) }}" class="btn btn-primary btn-sm">Edit</a>
                                         
                                             <button wire:click="delete({{ $slider->id }})" class="btn btn-danger btn-sm">Delete </button>
                                         </td>

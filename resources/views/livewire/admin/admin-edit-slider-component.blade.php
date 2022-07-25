@@ -26,7 +26,7 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="subtitle" class="form-label">Slider subtitle</label>
-                                    <input class="form-control" id="subtitle" type="text" name="subtitle" placeholder="subtitle" wire:model="subtitle">
+                                    <input class="form-control" id="subtitle" type="text" name="subtitle" placeholder="subtitle" wire:model="subtitle" wire:keyup="generateSlug">
                                 </div>
                                 <div class="mb-3">
                                     <label for="price" class="form-label">Hotel price</label>
@@ -67,7 +67,7 @@
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <label for="title" class="form-label">Slider Ttle</label>
-                                    <input type="text" id="title" class="form-control" wire:model="title">
+                                    <input type="text" id="title" class="form-control" wire:model="title" wire:keyup="generateSlug">
                                 </div>
                                 <div class="mb-3">
                                     <label for="Starting" class="form-label">Hotel starting title</label>

@@ -12,16 +12,17 @@ class AdminEditSliderComponent extends Component
 {
     use WithFileUploads;
 
-    public $image, $newimage, $title, $subtitle, $Starting, $price, $per, $infoImage, $newinfoImage,
+    public $image, $newimage, $title, $subtitle, $slug, $Starting, $price, $per, $infoImage, $newinfoImage,
         $infoImage2, $newinfoImage2, $infoprice, $infotemp, $tempInfo, $infoText, $maintitle, $spantitle,
         $mainprice, $mainper, $mainpUrl, $sliderType, $slider_id;
 
     public function mount($slug)
     {
-        $slider = Sliders::where('subtitle', $slug)->first();
+        $slider = Sliders::where('slug', $slug)->first();
         $this->title = $slider->title;
         $this->subtitle = $slider->subtitle;
         $this->Starting = $slider->Starting;
+        $this->slug = $slider->slug;
         $this->image = $slider->image;
         $this->price = $slider->price;
         $this->per = $slider->per;
@@ -44,7 +45,7 @@ class AdminEditSliderComponent extends Component
     {
         $placeObj = new Sliders();
 
-        $string = preg_replace('/[^A-Za-z0-9\-]/', '-', $this->name); //Removed all Special Character and replace with hyphen
+        $string = preg_replace('/[^A-Za-z0-9\-]/', '-', $this->title . '-' . $this->subtitle); //Removed all Special Character and replace with hyphen
         $final_slug = preg_replace('/-+/', '-', $string); //Removed double hyphen
         $sliderNameURL = strtolower($final_slug);
         $this->slug = Str::slug($sliderNameURL);
@@ -84,6 +85,7 @@ class AdminEditSliderComponent extends Component
         $slider->title = $this->title;
         $slider->subtitle = $this->subtitle;
         $slider->Starting = $this->Starting;
+        $slider->slug = $this->slug;
         $slider->price = $this->price;
         $slider->per = $this->per;
         $slider->infoprice = $this->infoprice;
