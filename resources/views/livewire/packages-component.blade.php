@@ -10,14 +10,15 @@
               <h2 class="title-section mt-0 mb-0">August Umrah</h2>
               <!-- ! section title-->
               <div class="cws_divider with-plus short-3 mb-20 mt-10"></div>
-              <p class="mb-20">Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, port titor eu, consequat vitae, eleifend ac, enim.</p>
-              <p class="mb-20">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <ins>natoque penatibus</ins> et magnis dis parturient montes, nascetur ridi culus mus. Donec quam felis, ultricies nec, pellentesque eu :</p>
+              <p class="mb-20">10 Nights price starts from</p>
+              <h2 class="mb-20"><ins>$1950</ins> </h2>
+               <p class="mb-20">per person</p>
               <!-- list-->
               <ul class="style-5 mb-30">
-                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit seres</li>
-                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Donec pede justo, fringilla vel, aliquet nec, vulputate eget</li>
-                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> In enim justo, rhoncus ut, imperdiet a, venenatis vitae, jur</li>
-                <li><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"> Aenean leo ligula, porttitor eu, consequat vitae, eleifend	</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-11.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-11.svg')}}" alt class="pk-logo"> Flight Tickets</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-12.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-12.svg')}}" alt class="pk-logo"> Visa Processing</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-13.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-13.svg')}}" alt class="pk-logo"> Historical Sites Tour</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-14.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-14.svg')}}" alt class="pk-logo"> Ground Transport</li>
               </ul>
               <!-- ! list--><a href="#" class="cws-button alt">Book Now</a><!--<a href="#" class="cws-button alt gray-dark">Learn more</a>-->
             </div>
@@ -29,14 +30,16 @@
               <h2 class="title-section mt-0 mb-0">September Umrah</h2>
               <!-- ! section title-->
               <div class="cws_divider with-plus short-3 mb-20 mt-10" style="border-bottom: 2px solid #832ca7 !important"></div>
-              <p class="mb-20">Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, port titor eu, consequat vitae, eleifend ac, enim.</p>
-              <p class="mb-20">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis <ins>natoque penatibus</ins> et magnis dis parturient montes, nascetur ridi culus mus. Donec quam felis, ultricies nec, pellentesque eu :</p>
+              <p class="mb-20">10 Nights price starts from</p>
+              <h2 class="mb-20"><ins style="color: #832ca7 !important;">$1950</ins> </h2>
+               <p class="mb-20">per person</p>
               <!-- list-->
-              <ul class="style-2 mb-30">
-                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit seres</li>
-                <li>Donec pede justo, fringilla vel, aliquet nec, vulputate eget</li>
-                <li>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, jur</li>
-                <li>Aenean leo ligula, porttitor eu, consequat vitae, eleifend	</li>
+              <ul class="style-5 mb-30">
+               <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-11.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-11.svg')}}" alt class="pk-logo"> Flight Tickets</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-12.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-12.svg')}}" alt class="pk-logo"> Visa Processing</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-13.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-13.svg')}}" alt class="pk-logo"> Historical Sites Tour</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-14.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Weli Travel SVG Icons-14.svg')}}" alt class="pk-logo"> Ground Transport</li>
+                <li><img src="{{ asset('assets/frontend/pic/icon/Accomodation-06.svg')}}" data-at2x="{{ asset('assets/frontend/pic/icon/Accomodation-06.svg')}}" alt class="pk-logo"> Accommodation</li>
               </ul>
               <!-- ! list--><a href="#" class="cws-button alt">Book Now</a><!--<a href="#" class="cws-button alt gray-dark">Learn more</a>-->
             </div>

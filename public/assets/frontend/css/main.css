@@ -16418,3 +16418,12 @@ p.error:before {
 .sicon img {
     margin: 0 auto !important;
 }
+.pk-logo {
+    width: 50px;
+    height: 50px;
+    color: #832ca7 !important;
+}
+.pk li i {
+    color: #832ca7 !important;
+    font-size: large;
+}
