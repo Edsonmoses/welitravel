@@ -13,6 +13,8 @@
     </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+     <!-- App favicon -->
+        <link rel="shortcut icon" href="{{ asset('assets/backend/assets/images/favicon.ico')}}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/reset.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{ asset('assets/frontend/css/font-awesome.css')}}">

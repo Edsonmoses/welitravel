@@ -6,11 +6,11 @@
     <div class="tp-banner-slider">
       <ul>
         @foreach ($sliders as $slider )
-        <li data-masterspeed="700" data-slotamount="7" data-transition="fade"><img src="{{ asset('assets/frontend/rs-plugin/assets/loader.gif')}}" data-lazyload="{{ asset('assets/frontend/pic/slider/main/')}}/{{$slider->image}}" data-bgposition="center" alt="" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10">
+         <li data-masterspeed="700" data-slotamount="7" data-transition="fade"><img src="{{ asset('assets/frontend/rs-plugin/assets/loader.gif')}}" data-lazyload="{{ asset('assets/frontend/pic/slider/main/')}}/{{$slider->image}}" data-bgposition="center" alt="" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10">
           <div data-x="['center','center','center','center']" data-y="center" data-transform_in="x:-150px;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="x:150px;opacity:0;s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-start="400" class="tp-caption sl-content">
-            <div class="sl-title-top">{{$slider->title}}</div>
+            {{--<div class="sl-title-top">{{$slider->title}}</div>
             <div class="sl-title">{{$slider->subtitle}}</div>
-            <div class="sl-title-bot">{{$slider->Starting}} <span>${{$slider->price}}</span> {{$slider->per}}</div>
+            <div class="sl-title-bot">{{$slider->Starting}} <span>${{$slider->price}}</span> {{$slider->per}}</div>--}}
           </div>
         </li>
         @endforeach

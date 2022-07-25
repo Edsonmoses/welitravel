@@ -27,12 +27,13 @@ class CreateSlidersTable extends Migration
             $table->string('infotemp')->nullable('NULL');
             $table->string('tempInfo')->nullable('NULL');
             $table->string('infoText')->nullable('NULL');
-            $table->string('maintitle')->nullable('NULL'); 
+            $table->string('maintitle')->nullable('NULL');
             $table->string('spantitle')->nullable('NULL');
             $table->string('mainprice')->nullable(0);
             $table->string('mainper')->nullable('NULL');
             $table->string('mainpUrl')->nullable('NULL');
             $table->string('sliderType')->nullable('DEFAULT');
+            $table->string('status')->nullable('active');
 
             $table->timestamps();
         });

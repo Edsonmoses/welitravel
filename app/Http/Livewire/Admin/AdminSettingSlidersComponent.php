@@ -19,19 +19,19 @@ class AdminSettingSlidersComponent extends Component
         $slider = SliderSetting::find($id);
         $slider->status = 'inactive';
         $slider->save();
-        session()->flash('message','Slider has been Deactivated successfully!');
+        session()->flash('message', 'Slider has been Deactivated successfully!');
     }
     public function updateSetting($id)
     {
         $slider = SliderSetting::find($id);
         $slider->status = $this->status;
         $slider->save();
-        session()->flash('message','Slider has been Actived successfully!');
+        session()->flash('message', 'Slider has been Actived successfully!');
     }
 
     public function render()
     {
         $settings = SliderSetting::all();
-        return view('livewire.admin.admin-setting-sliders-component',['settings'=>$settings])->layout('layouts.backend');
+        return view('livewire.admin.admin-setting-sliders-component', ['settings' => $settings])->layout('layouts.backend');
     }
 }

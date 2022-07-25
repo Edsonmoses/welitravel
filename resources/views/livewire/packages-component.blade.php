@@ -4,7 +4,7 @@
       <section class="page-section pt-110 pb-110">
         <div class="container">
           <div class="row"> 
-            <div class="col-md-6"><img src="{{ asset('assets/frontend/pic/packages/August-Umrah.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah.jpg')}}" alt class="mt-minus-20"></div>
+            <div class="col-md-6"><img src="{{ asset('assets/frontend/pic/packages/August-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/August-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"></div>
             <div class="col-md-6">
               <!-- section title-->
               <h2 class="title-section mt-0 mb-0">August Umrah</h2>
@@ -23,7 +23,7 @@
             </div>
           </div>
           <div class="row pt-30"> 
-            <div class="col-md-6"><img src="{{ asset('assets/frontend/pic/packages/September-Umrah.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/September-Umrah.jpg')}}" alt class="mt-minus-20"></div>
+            <div class="col-md-6"><img src="{{ asset('assets/frontend/pic/packages/September-Umrah-570x520.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/packages/September-Umrah-1140x1040.jpg')}}" alt class="mt-minus-20"></div>
             <div class="col-md-6">
               <!-- section title-->
               <h2 class="title-section mt-0 mb-0">September Umrah</h2>

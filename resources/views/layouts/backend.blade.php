@@ -600,7 +600,7 @@
                                 <div class="collapse" id="slider">
                                     <ul class="nav-second-level">
                                         <li>
-                                            <a href="#">All</a>
+                                            <a href="{{ route('admin.slider') }}">All</a>
                                         </li>
                                         <li>
                                             <a href="{{ route('admin.addslider') }}">Add Slider</a>
