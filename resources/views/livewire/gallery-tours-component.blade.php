@@ -85,7 +85,7 @@
             </div>
           </div>
           <!-- portfolio item-->
-          <div class="col-md-6 col-sm-12 col-xs-12 all family romantic beach honeymoon">
+          <div class="col-md-3 col-sm-6 col-xs-6 all family romantic beach honeymoon">
             <div class="portfolio-item big">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" alt></div></a>
