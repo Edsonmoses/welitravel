@@ -3,12 +3,12 @@
         <div class="work-filter menu-widget with-switch">
           <ul class="magic-line">
             <li class="current_item"><a href="#" data-filter="*" class="filter active">All</a></li>
-            <li><a href="#" data-filter=".family" class="filter">Family</a></li>
+            <!--<li><a href="#" data-filter=".family" class="filter">Family</a></li>
             <li><a href="#" data-filter=".adventure" class="filter">Adventure</a></li>
             <li><a href="#" data-filter=".romantic" class="filter">Romantic</a></li>
             <li><a href="#" data-filter=".wildlife" class="filter">Wildlife</a></li>
             <li><a href="#" data-filter=".beach" class="filter">Beach</a></li>
-            <li><a href="#" data-filter=".honeymoon" class="filter">Honeymoon</a></li>
+            <li><a href="#" data-filter=".honeymoon" class="filter">Honeymoon</a></li>-->
           </ul>
         </div>
         <div id="filter-grid" class="row portfolio-grid gallery">
