@@ -217,7 +217,12 @@
     <!-- end copyright-->
     <!-- scroll top-->
   </footer>
-  <div id="scroll-top"><i class="fa fa-angle-up"></i></div>
+  <div id="whatsapp" style="margin-right: 50px; background:none !important;">
+    <a href="whatsapp://send?phone=+256705555557&text=Weli travel is dedicated to a policy of good exchange and caution is taken to see that you have a successful travel" title="Share Weli travel on whatsapp"><img src="{{ asset('assets/frontend/pic/whatsapps.png')}}" data-at2x="{{ asset('assets/frontend/pic/whatsapps.png')}}" alt></a>
+  </div>
+  <div id="scroll-top">
+    <i class="fa fa-angle-up"></i>
+  </div>
   <!-- ! footer-->
   <!-- login popup-->
   <div class="login-popup">

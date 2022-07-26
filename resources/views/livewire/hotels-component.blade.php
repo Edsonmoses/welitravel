@@ -111,7 +111,7 @@
                 </div>
                 <!-- Recomended Content-->
                 <div class="recom-item-body"><a href="hotels-details.html">
-                    <h6 class="blog-title">Pullman Zamzam Makkah</h6></a>
+                    <h6 class="blog-title">Pullman Zamzam Madinah</h6></a>
                   <div class="stars stars-5"></div>
                   <div class="recom-price"><span class="font-4">$75</span> per night</div>
                   <p class="mb-30">Along with 2 restaurants, this hotel has a snack bar/deli and a </p><a href="hotels-details.html" class="recom-button">Read more</a><a href="hotels-details.html" class="cws-button small alt">Book now</a>

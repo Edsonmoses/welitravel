@@ -15230,6 +15230,21 @@ body.boxed .is-sticky .main-nav {
     border-bottom-right-radius: 5px;
 }
 
+#whatsapp {
+    position: fixed;
+    z-index: 1000;
+    bottom: 70px;
+    right: 25px;
+    background: #ccc;
+    width: 46px;
+    height: 46px;
+    opacity: 0.9;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+}
 #scroll-top {
     position: fixed;
     z-index: 1000;

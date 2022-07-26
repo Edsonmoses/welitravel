@@ -23,7 +23,7 @@
             </div>
             <!-- testimonial content-->
             <div class="testimonial-body">
-              <h5 class="title"><span>Kabasiita</span> Robertson</h5>
+              <h5 class="title"><span>Kabasiita</span> Shamim</h5>
               <div class="stars stars-5"></div>
               <p class="align-center">I thank Weli Travel for this Wonderful Experience, for really this is a life changing journey.</p><a href="page-about-us.html" class="testimonial-button">Read more</a>
             </div>
