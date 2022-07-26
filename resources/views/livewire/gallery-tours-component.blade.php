@@ -53,7 +53,7 @@
             </div>
           </div>--}}
           <!-- portfolio item-->
-          <div class="col-md-3 col-sm-6 col-xs-6 all family wildlife honeymoon">
+          <div class="col-md-4 col-sm-6 col-xs-6 all family wildlife honeymoon">
             <div class="portfolio-item">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_6.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_6.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_6.jpg')}}" alt></div></a>
@@ -69,7 +69,7 @@
             </div>
           </div>--}}
           <!-- portfolio item-->
-          <div class="col-md-3 col-sm-6 col-xs-6 all family wildlife honeymoon">
+          <div class="col-md-4 col-sm-6 col-xs-6 all family wildlife honeymoon">
             <div class="portfolio-item">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_8.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_8.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_8.jpg')}}" alt></div></a>
@@ -77,7 +77,7 @@
             </div>
           </div>
           <!-- portfolio item-->
-          <div class="col-md-3 col-sm-6 col-xs-6 all adventure romantic wildlife">
+          <div class="col-md-4 col-sm-6 col-xs-6 all adventure romantic wildlife">
             <div class="portfolio-item">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_.jpg')}}" alt></div></a>
@@ -85,7 +85,7 @@
             </div>
           </div>
           <!-- portfolio item-->
-          <div class="col-md-3 col-sm-6 col-xs-6 all family romantic beach honeymoon">
+          <div class="col-md-6 col-sm-12 col-xs-12 all family romantic beach honeymoon">
             <div class="portfolio-item big">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_2.jpg')}}" alt></div></a>
