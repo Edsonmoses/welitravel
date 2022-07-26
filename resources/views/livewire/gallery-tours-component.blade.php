@@ -2,8 +2,8 @@
     <div class="container page purl">
         <div class="work-filter menu-widget with-switch">
           <ul class="magic-line">
-            <li class="current_item"><a href="#" data-filter="*" class="filter active">All</a></li>
-            <!--<li><a href="#" data-filter=".family" class="filter">Family</a></li>
+            <!-- <li class="current_item"><a href="#" data-filter="*" class="filter active">All</a></li>
+           <li><a href="#" data-filter=".family" class="filter">Family</a></li>
             <li><a href="#" data-filter=".adventure" class="filter">Adventure</a></li>
             <li><a href="#" data-filter=".romantic" class="filter">Romantic</a></li>
             <li><a href="#" data-filter=".wildlife" class="filter">Wildlife</a></li>
@@ -12,7 +12,7 @@
           </ul>
         </div>
         <div id="filter-grid" class="row portfolio-grid gallery">
-          <!-- portfolio item-->
+          {{-- <!-- portfolio item-->
           <div class="col-md-6 col-sm-12 col-xs-12 all adventure wildlife beach">
             <div class="portfolio-item big">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/1160x570_Portfolio_.jpg')}}" class="fancy">
@@ -51,7 +51,7 @@
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_5.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_5.jpg')}}" alt></div></a>
               <div class="links"><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_5.jpg')}}" class="fancy"><i class="fa fa-expand"></i></a></div>
             </div>
-          </div>
+          </div>--}}
           <!-- portfolio item-->
           <div class="col-md-3 col-sm-6 col-xs-6 all family wildlife honeymoon">
             <div class="portfolio-item">
@@ -61,13 +61,13 @@
             </div>
           </div>
           <!-- portfolio item-->
-          <div class="col-md-3 col-sm-6 col-xs-6 all adventure romantic beach">
+          {{-- <div class="col-md-3 col-sm-6 col-xs-6 all adventure romantic beach">
             <div class="portfolio-item">
               <!-- portfolio image--><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_7.jpg')}}" class="fancy">
                 <div class="portfolio-media"><img src="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_7.jpg')}}" data-at2x="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_7.jpg')}}" alt></div></a>
               <div class="links"><a href="{{ asset('assets/frontend/pic/portfolio/570x570_Portfolio_7.jpg')}}" class="fancy"><i class="fa fa-expand"></i></a></div>
             </div>
-          </div>
+          </div>--}}
           <!-- portfolio item-->
           <div class="col-md-3 col-sm-6 col-xs-6 all family wildlife honeymoon">
             <div class="portfolio-item">
